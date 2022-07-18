@@ -18,7 +18,10 @@
     </header>
     <section id="user-goal">
       <h2>My Course Goal</h2>
-      <p></p>
+      <!--Interpolation, komplexer code geht nicht-->
+      <!--<p v-html="outputGoal()"></p>-->
+      <p>{{ outputGoal() }}</p>
+      <p>Learn more <a v-bind:href="vueLink">about Google!</a></a></p>
     </section>
   </body>
 </html>
