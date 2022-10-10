@@ -2,7 +2,8 @@ const app = Vue.createApp({
     data(){
         return {
             user: '',
-            visibility: true
+            visibility: true,
+            inputColor: ''
         };
     },
 
